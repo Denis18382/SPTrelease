@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/kruglie_ygli"
+
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="180dp"
+            android:layout_height="187dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/spt_logo1"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:visibility="visible"
+          />
+
+
+
+
+        <TextView
+            android:id="@+id/Spt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textColor="@color/sptone"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            tools:ignore="MissingConstraints,RtlHardcoded" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:onClick="rasspone"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/raspisanie"
+                    android:shadowColor="#000000"
+                    android:text="@string/one_menu"
+                    android:textColor="@color/sptone"
+                    android:textSize="12dp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/specialnosti"
+                    android:text="@string/two_menu"
+                    android:onClick="spets"
+                    android:textColor="@color/sptone"
+                    android:textSize="11dp"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/ospt2"
+                    android:onClick="o_spt"
+                    android:text="@string/three_menu"
+                    android:textColor="@color/sptone"
+                    android:textSize="12dp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/student"
+                    android:text="@string/four_menu"
+                    android:textColor="@color/sptone"
+                    android:textSize="12dp"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:onClick="teachers"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/teachers"
+                    android:text="@string/five_menu"
+                    android:textColor="@color/sptone"
+                    android:textSize="11dp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:drawableTop="@drawable/onas"
+                    android:onClick="contact"
+                    android:text="@string/six_menu"
+                    android:textColor="@color/sptone"
+                    android:textSize="12dp"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/sptone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

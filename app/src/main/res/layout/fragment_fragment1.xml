@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment1">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:text="@string/one"
+            android:textSize="16sp"
+            />
+        <TextView
+
+            android:text="Maths"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:text="60каб"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="@color/sptone" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:text="@string/one"
+            android:textSize="16sp"
+            />
+        <TextView
+
+            android:text="Maths"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:text="58каб"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="@color/sptone" />
+
+</TableLayout>

@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kruglie_ygli"
+    tools:context=".rasp_group_103">
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/custom_button"
+            android:onClick="back"
+            android:text="@string/back"
+            android:textColor="@color/sptone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/spt_logo2" />
+    </android.support.constraint.ConstraintLayout>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/pon"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/rasspPredmet"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet15"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab2lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet15"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab2lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet6"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab6lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/seven"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet14"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cabsz"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/vtornik"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet2"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab70"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet2"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab70"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet5"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet5"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet13"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab59"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet13"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab59"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/seven"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet2"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab70"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/eight"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet2"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab70"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/sreda"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet15"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab26"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet14"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cabsz"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet7"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab38lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet7"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab38lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:text="@string/seven"
+                android:textSize="16sp" />
+            <TextView
+                android:padding="5dp"
+                android:text="@string/predmet12"
+                android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/chetverg"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet3"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab48"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet3"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab48"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet9"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab2lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet9"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab2lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet5"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet5"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/ten"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet8"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/patnitsa"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet16"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab59"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet16"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab59"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet7"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab38lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet6"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab6lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:textColor="@color/sptone"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/subbota"
+                    android:textSize="20sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/one"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet6"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab6lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/two"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet10"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab6lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/three"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet11"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/four"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet11"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab1lk"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/five"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/six"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/predmet4"
+                    android:textSize="16sp" />
+                <TextView
+                    android:padding="5dp"
+                    android:text="@string/cab25"
+                    android:textSize="16sp" />
+            </TableRow>
+            <View
+                android:layout_height="2dip"
+                android:background="@color/sptone" />
+
+
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
